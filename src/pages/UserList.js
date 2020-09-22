@@ -1,5 +1,4 @@
 import React from "react";
-// import Menu from "../components/menu/Menu";
 import UserService from "../UserService";
 import User from "../components/users/User";
 

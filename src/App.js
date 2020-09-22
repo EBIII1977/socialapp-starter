@@ -2,9 +2,10 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import RegistrationPage from "./pages/Registration";
 import Home from "./pages/Home";
-import UserList from "./pages/UserList";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
+import UserList from "./pages/UserList";
+import MessageFeed from "./pages/MessageFeed";
 
 class App extends React.Component {
   render() {
@@ -29,6 +30,11 @@ class App extends React.Component {
           exact
           path="/Users"
           component={UserList}
+        />
+        <Route
+          exact
+          path="/Messages"
+          component={MessageFeed}
         />
         <Route
           exact
