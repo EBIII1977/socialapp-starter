@@ -6,7 +6,6 @@ import { userIsAuthenticated } from "../redux/HOCs";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Widgets from "../components/widgets/Widgets";
 import Post from "../components/post/Post";
-import MessageBox from "../components/messages/MessageBox";
 // import Feed from "../components/feeds/Feed";
 
 
@@ -19,7 +18,6 @@ class Profile extends React.Component {
         {/* <Feed/> */}
         <Widgets/>
         <Post/>
-        <MessageBox/>
        
 
        
