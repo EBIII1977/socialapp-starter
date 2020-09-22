@@ -32,12 +32,12 @@ class Sidebar extends React.Component {
             </div>
           )}
         </div>
-        <SidebarOption active Icon={HomeIcon} text='Home' />
+        <SidebarOption active Icon={HomeIcon} text='Home' path="/" />
         <SidebarOption Icon={SearchIcon} text='Explore' />
         <SidebarOption Icon={NotificationsNoneIcon} text='Notifications' />
         <SidebarOption Icon={MailOutlineIcon} text='Messages' />
         <SidebarOption Icon={BookmarkBorderIcon} text='Bookmarks' />
-        <SidebarOption Icon={ListAltIcon} text='Lists' />
+        <SidebarOption Icon={ListAltIcon} text='User List' path="/Users" />
         <SidebarOption Icon={PermIdentityIcon} text='Profile' />
         <SidebarOption Icon={MoreHorizIcon} text='More' />
       
